@@ -12,8 +12,11 @@ int main()
   The sample solution only has four lines.
   */
 
-
-
-
+  while (i == j)
+  {
+    i++;
+    j = (int)(float)i;
+  }
   printf("i=%d\nj=%d\n", i, j);
+  return 0;
 }
